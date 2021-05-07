@@ -26,6 +26,7 @@ def birler(analog):
      d.value(1)
      e.value(1)
      d4.value(1)
+     temizle()
     if birler == 1:
      g.value(0)
      f.value(0)
@@ -35,6 +36,7 @@ def birler(analog):
      d.value(0)
      e.value(0)
      d4.value(1)
+     temizle()
     if birler == 2:
      g.value(1)
      f.value(0)
@@ -44,6 +46,7 @@ def birler(analog):
      d.value(1)
      e.value(1)
      d4.value(1)
+     temizle()
     if birler == 3:
      g.value(1)
      f.value(0)
@@ -53,6 +56,7 @@ def birler(analog):
      d.value(1)
      e.value(0)
      d4.value(1)
+     temizle()
     if birler == 4:
      g.value(1)
      f.value(1)
@@ -62,6 +66,7 @@ def birler(analog):
      d.value(0)
      e.value(0)
      d4.value(1)
+     temizle()
     if birler == 5:
      g.value(1)
      f.value(1)
@@ -71,6 +76,7 @@ def birler(analog):
      d.value(1)
      e.value(0)
      d4.value(1)
+     temizle()
     if birler == 6:
      g.value(1)
      f.value(1)
@@ -80,6 +86,7 @@ def birler(analog):
      d.value(1)
      e.value(1)
      d4.value(1)
+     temizle()
     if birler == 7:
      g.value(0)
      f.value(0)
@@ -89,6 +96,7 @@ def birler(analog):
      d.value(0)
      e.value(0)
      d4.value(1)
+     temizle()
     if birler == 8:
      g.value(1)
      f.value(1)
@@ -98,6 +106,7 @@ def birler(analog):
      d.value(1)
      e.value(1)
      d4.value(1)
+     temizle()
     if birler == 9:
      g.value(1)
      f.value(1)
@@ -107,7 +116,7 @@ def birler(analog):
      d.value(1)
      e.value(0)
      d4.value(1)
-    d4.value(0)
+     temizle()
 def onlar(analog):
     onlar=math.floor(analog/10)%10    
     if onlar == 0:
@@ -119,6 +128,7 @@ def onlar(analog):
      d.value(1)
      e.value(1)
      d3.value(1)
+     temizle()
     if onlar == 1:
      g.value(0)
      f.value(0)
@@ -128,6 +138,7 @@ def onlar(analog):
      d.value(0)
      e.value(0)
      d3.value(1)
+     temizle()
     if onlar == 2:
      g.value(1)
      f.value(0)
@@ -137,6 +148,7 @@ def onlar(analog):
      d.value(1)
      e.value(1)
      d3.value(1)
+     temizle()
     if onlar == 3:
      g.value(1)
      f.value(0)
@@ -146,6 +158,7 @@ def onlar(analog):
      d.value(1)
      e.value(0)
      d3.value(1)
+     temizle()
     if onlar == 4:
      g.value(1)
      f.value(1)
@@ -155,6 +168,7 @@ def onlar(analog):
      d.value(0)
      e.value(0)
      d3.value(1)
+     temizle()
     if onlar == 5:
      g.value(1)
      f.value(1)
@@ -164,6 +178,7 @@ def onlar(analog):
      d.value(1)
      e.value(0)
      d3.value(1)
+     temizle()
     if onlar == 6:
      g.value(1)
      f.value(1)
@@ -173,6 +188,7 @@ def onlar(analog):
      d.value(1)
      e.value(1)
      d3.value(1)
+     temizle()
     if onlar == 7:
      g.value(0)
      f.value(0)
@@ -182,6 +198,7 @@ def onlar(analog):
      d.value(0)
      e.value(0)
      d3.value(1)
+     temizle()
     if onlar == 8:
      g.value(1)
      f.value(1)
@@ -191,6 +208,7 @@ def onlar(analog):
      d.value(1)
      e.value(1)
      d3.value(1)
+     temizle()
     if onlar == 9:
      g.value(1)
      f.value(1)
@@ -200,7 +218,7 @@ def onlar(analog):
      d.value(1)
      e.value(0)
      d3.value(1)
-    d3.value(0)
+     temizle()
 def yuzler(analog):
     yuzler=math.floor(analog/100)%10
     if yuzler == 0:
@@ -212,6 +230,7 @@ def yuzler(analog):
      d.value(1)
      e.value(1)
      d2.value(1)
+     temizle()
     if yuzler == 1:
      g.value(0)
      f.value(0)
@@ -221,6 +240,7 @@ def yuzler(analog):
      d.value(0)
      e.value(0)
      d2.value(1)
+     temizle()
     if yuzler == 2:
      g.value(1)
      f.value(0)
@@ -230,6 +250,7 @@ def yuzler(analog):
      d.value(1)
      e.value(1)
      d2.value(1)
+     temizle()
     if yuzler == 3:
      g.value(1)
      f.value(0)
@@ -239,6 +260,7 @@ def yuzler(analog):
      d.value(1)
      e.value(0)
      d2.value(1)
+     temizle()
     if yuzler == 4:
      g.value(1)
      f.value(1)
@@ -248,6 +270,7 @@ def yuzler(analog):
      d.value(0)
      e.value(0)
      d2.value(1)
+     temizle()
     if yuzler == 5:
      g.value(1)
      f.value(1)
@@ -257,6 +280,7 @@ def yuzler(analog):
      d.value(1)
      e.value(0)
      d2.value(1)
+     temizle()
     if yuzler == 6:
      g.value(1)
      f.value(1)
@@ -266,6 +290,7 @@ def yuzler(analog):
      d.value(1)
      e.value(1)
      d2.value(1)
+     temizle()
     if yuzler == 7:
      g.value(0)
      f.value(0)
@@ -275,6 +300,7 @@ def yuzler(analog):
      d.value(0)
      e.value(0)
      d2.value(1)
+     temizle()
     if yuzler == 8:
      g.value(1)
      f.value(1)
@@ -284,6 +310,7 @@ def yuzler(analog):
      d.value(1)
      e.value(1)
      d2.value(1)
+     temizle()
     if yuzler == 9:
      g.value(1)
      f.value(1)
@@ -293,7 +320,7 @@ def yuzler(analog):
      d.value(1)
      e.value(0)
      d2.value(1)
-    d2.value(0)
+     temizle()
 def binler(analog):
     binler=math.floor(analog/1000)
     if binler == 0:
@@ -306,6 +333,7 @@ def binler(analog):
      e.value(1)
      d1.value(1)
      d1.value(1)
+     temizle()
     if binler == 1:
      g.value(0)
      f.value(0)
@@ -315,6 +343,7 @@ def binler(analog):
      d.value(0)
      e.value(0)
      d1.value(1)
+     temizle()
     if binler == 2:
      g.value(1)
      f.value(0)
@@ -324,6 +353,7 @@ def binler(analog):
      d.value(1)
      e.value(1)
      d1.value(1)
+     temizle()
     if binler == 3:
      g.value(1)
      f.value(0)
@@ -333,6 +363,7 @@ def binler(analog):
      d.value(1)
      e.value(0)
      d1.value(1)
+     temizle()
     if binler == 4:
      g.value(1)
      f.value(1)
@@ -342,6 +373,7 @@ def binler(analog):
      d.value(0)
      e.value(0)
      d1.value(1)
+     temizle()
     if binler == 5:
      g.value(1)
      f.value(1)
@@ -351,6 +383,7 @@ def binler(analog):
      d.value(1)
      e.value(0)
      d1.value(1)
+     temizle()
     if binler == 6:
      g.value(1)
      f.value(1)
@@ -360,6 +393,7 @@ def binler(analog):
      d.value(1)
      e.value(1)
      d1.value(1)
+     temizle()
     if binler == 7:
      g.value(0)
      f.value(0)
@@ -369,6 +403,7 @@ def binler(analog):
      d.value(0)
      e.value(0)
      d1.value(1)
+     temizle()
     if binler == 8:
      g.value(1)
      f.value(1)
@@ -378,6 +413,7 @@ def binler(analog):
      d.value(1)
      e.value(1)
      d1.value(1)
+     temizle()
     if binler == 9:
      g.value(1)
      f.value(1)
@@ -387,7 +423,19 @@ def binler(analog):
      d.value(1)
      e.value(0)
      d1.value(1)
-    d1.value(0)
+     temizle()
+def temizle():
+     g.value(0)
+     f.value(0)
+     a.value(0)
+     b.value(0)
+     c.value(0)
+     d.value(0)
+     e.value(0)
+     d1.value(0)
+     d2.value(0)
+     d3.value(0)
+     d4.value(0)
 tim = Timer()
 def tick(timer):
     global analog
@@ -400,4 +448,3 @@ while True:
     yuzler(analog)
     onlar(analog)
     birler(analog)
-
